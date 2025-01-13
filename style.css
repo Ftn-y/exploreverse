@@ -135,18 +135,6 @@
   background-color: #817eb1;
   color: #000000;
 }
-.container2 {
-  padding: 80px 50px;
-  background-image: url('tioman4.jpg'); 
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: none;
-  color: #fff; 
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  position: relative;
-}
 .container4 {
   background-color: #99b6cc;
   border-radius: none;
