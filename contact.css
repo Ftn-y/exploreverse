@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url(img/bgpicc.jpg);
+    background-image: url(bgpicc.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
