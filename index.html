@@ -36,6 +36,15 @@
     </div>
   </nav>
 
+    <div id="notificationModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeNotification()">&times;</span>
+      <h2>Welcome to ExploreVerse!</h2>
+      <p>Discover amazing activities and destinations tailored just for you.</p>
+      <button onclick="closeNotification()">Got it!</button>
+    </div>
+  </div>
+
   <div class="container1">
     <img src="banner.jpg" alt="Pulau Mersing" width="1300" height="450"><br>
     <h1 style="color:rgb(8, 7, 73); font-weight: bold;">ExploreVerse</h1>
@@ -182,6 +191,18 @@
     </tbody>
   </table><br><br>
 </section>
+
+  <script>
+window.onload = function () {
+  const modal = document.getElementById("notificationModal");
+  modal.style.display = "block";
+};
+
+function closeNotification() {
+  const modal = document.getElementById("notificationModal");
+  modal.style.display = "none";
+}
+</script>
 
 <footer>
   <marquee>© 2024 ExploreVerse. All rights <sub>reserved.</sub> 
