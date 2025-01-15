@@ -39,6 +39,18 @@
   <section class="container py-5">
     <h1>Travel & Lifestyle Tips</h1><br>
     <p style="text-align: center;">A travel lifestyle is about embracing adventure, exploring new places, and cultivating experiences that enrich life beyond the daily routine. It’s not just about the destinations but also about adopting habits and practices that make travel enjoyable, sustainable, and fulfilling. Whether you’re a frequent traveler or a weekend wanderer, living a travel lifestyle requires balance, creativity, and preparation.</p>
+
+    <div class="slideshow-container">
+      <div class="slide">
+        <img src="lifestyle.jpeg" alt="Slide 1">
+      </div>
+      <div class="slide">
+        <img src="lifestyle3.jpg" alt="Slide 2">
+      </div>
+      <div class="slide">
+        <img src="lifestyle2.jpg" alt="Slide 3">
+      </div>
+    </div><br><br>
     
     <div class="row">
         <div class="col-md-4">
@@ -82,6 +94,26 @@
     </div>
 </section><br><br>
 
+  <script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  const slides = document.querySelectorAll(".slide");
+
+  slides.forEach((slide) => (slide.classList.remove("active")));
+
+  slideIndex++;
+  if (slideIndex > slides.length) {
+    slideIndex = 1; 
+  }
+
+  slides[slideIndex - 1].classList.add("active");
+
+  setTimeout(showSlides, 8000);
+}
+</script>
+  
   <a href="index.html" class="home-button">🏠︎</a>
 
   <footer>
